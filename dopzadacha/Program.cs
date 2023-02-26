@@ -35,4 +35,4 @@ int[] ProductOfNumbers(int[] inputArray)
     return result;
 }
 
-Console.WriteLine($"Произведение пар чисел первого и последнего элемента является: [{String.Join(";", newArray)}]");
+Console.WriteLine($"Произведением пар чисел первого и последнего элемента является: [{String.Join(";", newArray)}]");
