@@ -5,7 +5,6 @@
 
 Console.WriteLine("Укажите длину массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
-int newSize = size / 2;
 
 int[] array = Generator(new Random().Next(1, 11));
 
@@ -21,6 +20,9 @@ int[] Generator(int inputArray)
 
 Console.WriteLine($"Случайно сгенерированный массив: [{String.Join(";", array)}]");
 
+//Сгенерировал массив случайных чисел, теперь перехожу к решению задачи
+
+int newSize = size / 2;
 int[] newArray = ProductOfNumbers(array);
 
 int[] ProductOfNumbers(int[] inputArray)
